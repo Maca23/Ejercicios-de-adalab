@@ -1,0 +1,22 @@
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.item {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    border: 5px solid palevioletred;
+}
+
+.container2 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}

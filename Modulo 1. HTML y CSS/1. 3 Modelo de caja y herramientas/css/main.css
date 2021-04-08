@@ -1,0 +1,15 @@
+.inline-block {
+    display: inline-block;
+}
+
+.ocultos {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
