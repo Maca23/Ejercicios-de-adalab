@@ -1,0 +1,15 @@
+.content {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+}
