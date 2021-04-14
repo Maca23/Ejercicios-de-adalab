@@ -1,15 +1,15 @@
-.container {
-    display: flex;
-    height: 100px;
-    width: 100vw;
-    background-color: burlywood;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .item {
-    box-sizing: border-box;
-    margin: 20px;
-    background-color: cyan;
-  }
+.body {
+  margin:auto;
+}
+
+.content {
+  border: 1px solid red;
+  background-color: palevioletred;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}

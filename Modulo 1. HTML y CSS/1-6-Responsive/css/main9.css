@@ -1,0 +1,62 @@
+.container {
+    background-color: grey;
+
+}
+
+.links {
+    background-color: green;
+}
+
+.ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.main {
+    background-color: yellow;
+    margin-top: 0;
+}
+
+.section {
+    background-color: gray;
+}
+
+.top {
+    background-color: black;
+    height: 10px;
+}
+
+.bottom {
+    background-color: black;
+    height: 10px;
+}
+
+@media (min-width: 480px) {
+    .container {
+        background-color: grey;
+    
+    }
+    
+    .links {
+        background-color: green;
+    }
+    
+    .ul {
+        list-style: none;
+        margin-bottom: 0;
+    }
+    
+    .main {
+        background-color: yellow;
+        margin-top: 0;
+    }
+    
+    .section {
+        background-color: gray;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+}
