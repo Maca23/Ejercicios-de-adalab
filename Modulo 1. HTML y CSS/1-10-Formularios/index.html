@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Ejercicio 3 y 4</title>
+</head>
+
+<body>
+    <header>
+        <h1>Create an account</h1>
+        <h3>It's free and always will be.</h3>
+    </header>
+    <form action="/signup" method="POST">
+        <label for="firstName"></label>
+        <input placeholder="First name" id="firstName" type="text" name="firstName" />
+
+        <label for="lastName"></label>
+        <input placeholder="Sumame" id="lastName" type="text" name="lastName" />
+
+        <label for="emailAddress"></label>
+        <input placeholder="Email or mobile number" id="emailAddress" type="text" name="emailAddress" />
+
+        <label for="ReEntreEmailOrMobileNumber"></label>
+        <input placeholder="Re-entre email or mobile number" id="ReEntreEmailOrMobileNumber" type="text"
+            name="ReEntreEmailOrMobileNumber" />
+
+        <label for="password"></label>
+        <input placeholder="New password" id="password" name="password" />
+
+    </form>
+
+    <h3>Birthday</h3>
+    <select id="day" name="day">
+        <option value="Day">Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
+
+    <select id="month" name="month">
+        <option value="Month">Month</option>
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+        <option value="Jun">Jun</option>
+        <option value="Jul">Jul</option>
+        <option value="Agost">Agost</option>
+        <option value="Sept">Sept</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+    </select>
+
+    <select id="year" name="year">
+        <option value="Year">Year</option>
+        <option value="1987">1987</option>
+        <option value="1988">1988</option>
+        <option value="1989">1989</option>
+        <option value="1990">1990</option>
+    </select>
+
+    <div>
+        <label for="sex1">
+            <input id="sex1" type="radio" value="female" name="female" />
+            Female
+        </label>
+    </div>
+    <div>
+        <label for="sex2">
+            <input id="sex2" type="radio" value="male" name="male" />
+            Male
+        </label>
+    </div>
+    </form>
+    <button>Create an account</button>
+</body>
+
+</html>
