@@ -1,0 +1,35 @@
+.header {
+    height: 75px;
+    background-color: yellow;
+}
+
+@media (min-width: 768px) {
+    .header {
+        height: 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header {
+        height: 110px;
+    }
+}
+
+.section1 {
+    height: 50%;
+    background-color: mediumorchid;
+}
+
+.section1__title {
+    text-align: center;
+}
+
+.section2 {
+    background-color: cyan;
+}
+
+.section2__container-button--button {
+    background-color: red;
+    border-radius: 5px;
+    height: 45px;
+}
