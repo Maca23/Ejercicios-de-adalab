@@ -1,0 +1,28 @@
+body {
+    margin:0;
+}
+
+.wrapper{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+  grid-template-rows: 20% 33% 20%;
+  grid-gap: 5px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-color: pink;
+    grid-column: 1/12;
+    grid-row: 1/2;
+  }
+
+  .item2 {
+      
+  }
+  
