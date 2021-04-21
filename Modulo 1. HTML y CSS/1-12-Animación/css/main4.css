@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop {
+    width: 35vw;
+    height: 35vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    transition: ease left 1s;
+    position: absolute;
+    left: -60%;
+}
+
+.container:hover .pop {
+    left: 100px;
+}
