@@ -1,0 +1,30 @@
+.blue.col-12 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: blue;
+    color: white;
+    border: white 5px solid;
+  }
+
+  .col-12 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: grey;
+    border: white 5px solid;
+  }
+
+  .col-6 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: grey;
+    border: white 5px solid;
+  }
