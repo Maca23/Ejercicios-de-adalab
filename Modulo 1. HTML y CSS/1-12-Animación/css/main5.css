@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.exampleTransition {
+    width: 300px;
+    border: dotted 5px orange;
+    text-align: center;
+    color: rgb(255,255,255);
+
+    transition: transform 0.5s, color 0.5s; /*esta transición sería la final. Primero sería la transición de hover y cuando vuelve, coge esta transición
+}*/
+
+/*.exampleTransition:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    color: rgb(255,127,127);
+    /*transition-property: transform;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease; --- linear, ease, ease-in, ease-out, ease-in-out
+    transition: transform 1.5s 0s ease-in, color 5s 1s linear; /*se puede poner todo junto: transition-property, transition-duration, transition-delay, transition-timing-function.
+}*/
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 1em;
+    color: blue;
+
+    transition: transform 1s; /*si pongo solo aquí la transición, hara lo mismo para la ida y para la vuelta, además de lo que tenga puesto el hover*/
+}
+
+.menu .menu-item:hover {
+    transform: scale(2);
+}
