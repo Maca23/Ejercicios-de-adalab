@@ -1,0 +1,34 @@
+@keyframes changeColors {
+    from {
+        background-color: green;
+        transform: rotate(0);
+    }
+    50% {
+        background-color: red;
+        transform: rotateZ(45deg);
+    }
+    to {
+        background-color: blue;
+        transform: rotateZ(-45deg);
+    }
+}
+
+.main {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    width: 50%;
+    height: 160px;
+    background-color: green;
+    animation: 1s changeColors infinite alternate;
+}
+
+.flag:hover {
+    animation-play-state: paused;
+    /*animation: duration func(linear, ease) dealy iter-count direction(forwards, backwards, alternate) fill-mode play-state name;*/
+}
