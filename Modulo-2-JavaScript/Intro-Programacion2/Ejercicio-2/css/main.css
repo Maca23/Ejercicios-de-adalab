@@ -1,0 +1,11 @@
+.main {
+  background-color: pink;
+}
+
+.main__title {
+  color: red;
+}
+
+.box {
+    border: 5px solid blue;
+}
