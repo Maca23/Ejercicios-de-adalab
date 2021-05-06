@@ -1,10 +1,10 @@
 'use strict';
 
 const button = document.querySelector('.button');
-const name = document.querySelector('.name');
 
 function showName() {
-    console.log('Hola ' + name.value);
+    let name = document.querySelector('.name').value;
+    console.log(`Hola ${name}`);
 }
 
 button.addEventListener('click', showName);
