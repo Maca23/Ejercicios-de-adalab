@@ -1,9 +1,10 @@
 'use strict';
 
-const button = document.querySelector('.change');
+const button = document.querySelector('.button');
+const text = document.querySelector('.text');
 
 function showChange() {
-    console.log('Mi primer click, ¡ole yo y la mujer que me parió!');
+  text.innerHTML = 'Mi primer click, ¡ole yo y la mujer que me parió!';
   }
 
 button.addEventListener('click', showChange);
