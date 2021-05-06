@@ -1,9 +1,11 @@
 'use strict';
 
-const p = document.querySelector('.p');
+const p = document.querySelector('.pepito');
 
 function showOtherParragraph() {
-    p.innerHTML = 'Corrupti accusamus, eius natus harum saepe qui sapiente porro ratione soluta obcaecati delectus modi itaque.';
+    const copyParragraph = document.createElement('p');
+    copyParragraph.innerHTML = 'Lorem Ipsum';
+    p.appendChild(copyParragraph);
 }
 
-p.addEventListener('mouseover', showOtherParragraph);
+p.addEventListener('click', showOtherParragraph);
