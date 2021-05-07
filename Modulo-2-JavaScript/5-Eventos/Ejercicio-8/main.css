@@ -1,0 +1,13 @@
+.button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+
+.red {
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
