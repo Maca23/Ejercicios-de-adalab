@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main.correctYellow {
+  background-color: #ffcc00;
+}
+.main.chileanOrange {
+  background-color: #ff9900;
+}
+.face {
+  font-size: 96px;
+  font-weight: bold;
+}
+.controls {
+  margin-top: 15vh;
+}
+.controls__options {
+  font-size: 1rem;
+  border-radius: 5px;
+  width: 60px;
+  height: 25px;
+}
+.controls__buttons {
+  font-size: 1rem;
+  background-color: rgb(21, 94, 211);
+  color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  height: 25px;
+}
