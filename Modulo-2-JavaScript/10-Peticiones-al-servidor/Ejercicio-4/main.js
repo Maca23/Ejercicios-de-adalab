@@ -5,7 +5,7 @@
 function getOrgs() {
   const inputValue = document.querySelector(".js-text").value;
   fetch("https://api.github.com/orgs/" + inputValue)
-    .then((firtResponse) => firtResponse.json())
+    .then((firstResponse) => firstResponse.json())
     .then((firstData) => {
       const repos = firstData.repos_url;
       console.log(repos);
