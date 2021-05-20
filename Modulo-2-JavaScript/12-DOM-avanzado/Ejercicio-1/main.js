@@ -1,5 +1,5 @@
-const numbers = [1, 2, 3];
 const list = document.querySelector('.js-list');
+const numbers = [1, 2, 3];
 
 for (const number of numbers){
     
